@@ -29,7 +29,7 @@ totalAnswer.push(element.correct_answer, element.incorrect_answers[0], element.i
             <p>No.${[x]} ${element.question}</p>
             <div class="answer-content">
               <div class="answer">
-                <input type="radio" name="p${[x]}" id="id${[z]}" value="${random[0]}" required checked><label for="id${[z++]}">${random[0]}</label >
+                <input type="radio" name="p${[x]}" id="id${[z]}" value="${random[0]}" required><label for="id${[z++]}">${random[0]}</label >
               </div>
               <div class="answer">
                 <input type="radio" name="p${[x]}" id="id${[z]}" value="${random[1]}" required><label for="id${[z++]}">${random[1]}</label>
@@ -63,7 +63,7 @@ totalAnswer.push(element.correct_answer, element.incorrect_answers[0]);
             <p>No.${[x]} ${element.question}</p>
             <div class="answer-content">
               <div class="answer">
-                <input type="radio" name="p${[x]}" id="id${[z]}" value="${random[0]}" required checked><label for="id${[z++]}">${random[0]}</label >
+                <input type="radio" name="p${[x]}" id="id${[z]}" value="${random[0]}" required ><label for="id${[z++]}">${random[0]}</label >
               </div>
               <div class="answer">
                 <input type="radio" name="p${[x]}" id="id${[z]}" value="${random[1]}" required><label for="id${[z++]}">${random[1]}</label>
